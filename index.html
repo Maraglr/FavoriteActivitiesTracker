@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pagina web</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDO USUARIO</h1>
+    </header>
+    
+    <main>
+
+        <section class="intro-section">
+            <p>
+                ¡Hola! Bienvenido a nuestra página de actividades favoritas. Aquí puedes registrar, gestionar y visualizar tus actividades favoritas. Para comenzar, simplemente llena el formulario con el título, descripción y la URL de una imagen de tu actividad favorita y presiona "Agregar". Tus actividades aparecerán abajo en forma de tarjetas. Si deseas limpiar el formulario, haz clic en "Limpiar".
+            </p>
+        </section>
+        
+        <section>
+            <h1>INGRESA AQUI TUS ACTIVIDADES FAVORITAS</h1>
+        </section>
+
+        <section>
+        <form>
+            <div class = "divContainer">
+            <div>
+                
+                <label for="titulo">Titulo de la actividad</label>
+                <input class="text" type="text" name="titulo" value="">
+            </div>
+            
+            <div>
+                
+                <label for="descripcion">Descripcion</label>
+                <textarea class="descripcion" name="descripcion" rows="5" cols="200"></textarea>
+            </div>
+            
+            <div>
+                
+                <label for="buscador">Url de imagen</label>
+                <input class="urlImg" type="search" name="buscador" />
+            </div>
+            
+            <button type="submit">Agregar</button>
+            <button type="submit">Limpiar</button>
+
+
+            </div>
+        </form>
+        </section>
+
+        <section>
+            <div class = "cardsContainer">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

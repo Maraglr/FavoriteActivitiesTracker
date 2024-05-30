@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background for the entire page */
+    color: #333; /* Dark grey text */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffcccb; /* Pale pink background */
+    padding: 20px;
+    text-align: center;
+    color: #000000; /* Dark grey text */
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+.intro-section {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle depth */
+    max-width: 800px;
+    margin: 0 auto 20px; /* Center the section and add bottom margin */
+    text-align: center;
+    color: #666; /* Grey text */
+}
+
+h1 {
+    color: #000000; /* Hot pink text color */
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Form Section Styles */
+form {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle depth */
+    max-width: 600px;
+    margin: 0 auto 20px; /* Center the form and add bottom margin */
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark grey text */
+}
+
+input[type="text"],
+input[type="search"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff69b4; /* Hot pink background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+/* Cards Section Styles */
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle depth */
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Three cards per row with space in between */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Space below cards */
+    justify-content: center;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+    color: #ff69b4;
+}
+
+.card p {
+    color: #666; /* Grey text */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffcccb; /* Pale pink background */
+    padding: 10px;
+    text-align: center;
+    color: #333; /* Dark grey text */
+}
